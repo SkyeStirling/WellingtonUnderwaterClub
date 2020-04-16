@@ -1,0 +1,361 @@
+
+
+.pageContainer{
+max-width: 1000px;
+margin: 0 auto;
+padding:0;
+}
+
+/* _________________________Selectors for mobile_____________________________ */
+
+body {
+
+   background-image: url(./home/hero_image_mobile.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Roboto', sans-serif;
+}
+
+.hometitle{
+font-size: 3rem;
+line-height: 1.7rem;
+color: white;
+margin-left: 4.3%;
+
+}
+
+/* .home_logo{
+  margin-left: 40%;
+  margin-top: 10%;
+} */
+
+.logopic{
+  width:66.66%;
+  margin-left: 25%;
+}
+
+.introText{
+  margin: 5% auto;
+  /* padding-left: 16.66%; */
+}
+
+.introText p{
+    color:white;
+    font-size: 1.8rem;
+   text-align: center;
+}
+
+.socialLinks{
+   display: inline-block;
+   margin: 15% 27%;
+}
+
+.icon{
+ /* margin-left: 20%;
+ padding: 25px; */
+ float: left;
+
+}
+
+.pic{
+  width: 100px;
+}
+
+/* .col{
+  float:left;
+} */
+
+
+
+/* ________________Collumns for laptope__________________ */
+.col1{
+width: 8.33%;
+}
+
+.col2{
+width:16.66%;
+}
+
+.col3{
+width:25%;
+}
+
+.col4{
+width:33.33%;
+}
+
+.col5{
+width:41.66%;
+}
+
+.col6{
+width:50%;
+}
+
+.col7{
+width:58.33%;
+}
+
+.col8{
+width:66.66%;
+}
+
+.col9{
+width:75%;
+}
+
+.col10{
+width:83.33%;
+}
+
+.col11{
+width:91.66%;
+}
+
+.col12{
+width:100%;
+}
+
+
+.row:after{
+  clear:both;
+  display:block;
+  content:'';
+}
+
+
+
+body {
+  background-color: purple;
+}
+                          /* Tablet media queary  */
+
+@media only screen and (min-width : 600px) {
+
+/* ______________Collumns for tablet______________________________ */
+
+.col1M{
+width: 8.33%;
+}
+
+.col2M{
+width:16.66%;
+}
+
+.col3M{
+width:25%;
+}
+
+.col4M{
+width:33.33%;
+}
+
+.col5M{
+width:41.66%;
+}
+
+.col6M{
+width:50%;
+}
+
+.col7M{
+width:58.33%;
+}
+
+.col8M{
+width:66.66%;
+}
+
+.col9M{
+width:75%;
+}
+
+.col10M{
+width:83.33%;
+}
+
+.col11M{
+width:91.66%;
+}
+
+.col12M{
+width:100%;
+}
+
+
+/* ___________________________Tablet styling_________________________________ */
+
+body {
+
+   background-image: url(./home/hero_image_tablet.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Roboto', sans-serif;
+}
+
+.hometitle{
+font-size: 1.7rem;
+line-height: 1rem;
+color: white;
+margin-left: 2%;
+
+}
+
+.home_logo{
+  margin-left: 18%;
+  margin-top: 10%;
+}
+
+.logopic{
+  width:50%;
+}
+
+.introText{
+  margin: 5% auto;
+  /* padding-left: 16.66%; */
+}
+
+.introText p{
+    color:white;
+    font-size: 1.8rem;
+   text-align: center;
+}
+
+.socialLinks{
+   display: inline-block;
+   margin: 15% 27%;
+}
+
+.icon{
+ /* margin-left: 20%;
+ padding: 25px; */
+ float: left;
+
+}
+
+.pic{
+  width: 80px;
+}
+
+}
+
+/* _________________Laptop columns__________________________________ */
+
+@media only screen and (min-width : 800px) {
+
+  .col1m{
+  width: 8.33%;
+  }
+
+  .col2m{
+  width:16.66%;
+  }
+
+  .col3m{
+  width:25%;
+  }
+
+  .col4m{
+  width:33.33%;
+  }
+
+  .col5m{
+  width:41.66%;
+  }
+
+  .col6m{
+  width:50%;
+  }
+
+  .col7m{
+  width:58.33%;
+  }
+
+  .col8m{
+  width:66.66%;
+  }
+
+  .col9m{
+  width:75%;
+  }
+
+  .col10m{
+  width:83.33%;
+  }
+
+  .col11m{
+  width:91.66%;
+  }
+
+  .col12m{
+  width:100%;
+  }
+
+/* ______________________________________________________________ */
+
+body {
+  background-color: #01090b;
+}
+
+}
+
+
+/* __________________Mediummedia___________________________________ */
+
+@media only screen and (min-width : 1080px) {
+
+  .col1m{
+  width: 8.33%;
+  }
+
+  .col2m{
+  width:16.66%;
+  }
+
+  .col3m{
+  width:25%;
+  }
+
+  .col4m{
+  width:33.33%;
+  }
+
+  .col5m{
+  width:41.66%;
+  }
+
+  .col6m{
+  width:50%;
+  }
+
+  .col7m{
+  width:58.33%;
+  }
+
+  .col8m{
+  width:66.66%;
+  }
+
+  .col9m{
+  width:75%;
+  }
+
+  .col10m{
+  width:83.33%;
+  }
+
+  .col11m{
+  width:91.66%;
+  }
+
+  .col12m{
+  width:100%;
+  }
+
+/* ______________________________________________________________ */
+
+body {
+  background-color: red;
+}
+
+}

@@ -1,0 +1,315 @@
+
+
+/* ________________Collumns for mobile__________________ */
+
+
+.col1{
+width: 8.33%;
+}
+
+.col2{
+width:16.66%;
+}
+
+.col3{
+width:25%;
+}
+
+.col4{
+width:33.33%;
+}
+
+.col5{
+width:41.66%;
+}
+
+.col6{
+width:50%;
+}
+
+.col7{
+width:58.33%;
+}
+
+.col8{
+width:66.66%;
+}
+
+.col9{
+width:75%;
+}
+
+.col10{
+width:83.33%;
+}
+
+.col11{
+width:91.66%;
+}
+
+.col12{
+width:100%;
+}
+
+
+.row:after{
+  clear:both;
+  display:block;
+  content:'';
+}
+
+/* _________________________Selectors for mobile_____________________________ */
+
+body {
+
+   background-image: url(./home/hero_image_mobile.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Roboto', sans-serif;
+}
+
+.hometitle{
+font-size: 3rem;
+line-height: 1.7rem;
+color: white;
+margin-left: 4.3%;
+
+}
+
+.home_logo{
+  margin-left: 18%;
+  margin-top: 10%;
+}
+
+.introText{
+  margin: 5% auto;
+  /* padding-left: 16.66%; */
+}
+
+.introText p{
+    color:white;
+    font-size: 1.8rem;
+   text-align: center;
+}
+
+.socialLinks{
+   display: inline-block;
+   margin: 15% 27%;
+}
+
+.icon{
+ /* margin-left: 20%;
+ padding: 25px; */
+ float: left;
+
+}
+
+.pic{
+  width: 100px;
+}
+
+/* .col{
+  float:left;
+} */
+
+/* _________________________Selectors for tablet_____________________________ */
+
+@media only screen and (min-width : 500px) {
+
+  /* ________________Collumns for tablet__________________ */
+
+  .col1M{
+  width: 8.33%;
+  }
+
+  .col2M{
+  width:16.66%;
+  }
+
+  .col3M{
+  width:25%;
+  }
+
+  .col4M{
+  width:33.33%;
+  }
+
+  .col5M{
+  width:41.66%;
+  }
+
+  .col6M{
+  width:50%;
+  }
+
+  .col7M{
+  width:58.33%;
+  }
+
+  .col8M{
+  width:66.66%;
+  }
+
+  .col9M{
+  width:75%;
+  }
+
+  .col10M{
+  width:83.33%;
+  }
+
+  .col11M{
+  width:91.66%;
+  }
+
+  .col12M{
+  width:100%;
+  }
+
+
+  .row:after{
+    clear:both;
+    display:block;
+    content:'';
+  }
+
+
+body {
+  color: red;
+}
+
+
+
+}
+
+/* _________________________Selectors for laptop_____________________________ */
+
+@media only screen and (min-width : 960px) {
+
+  /* ________________Collumns for laptop__________________ */
+
+  .col1L{
+  width: 8.33%;
+  }
+
+  .col2L{
+  width:16.66%;
+  }
+
+  .col3L{
+  width:25%;
+  }
+
+  .col4L{
+  width:33.33%;
+  }
+
+  .col5L{
+  width:41.66%;
+  }
+
+  .col6L{
+  width:50%;
+  }
+
+  .col7L{
+  width:58.33%;
+  }
+
+  .col8L{
+  width:66.66%;
+  }
+
+  .col9L{
+  width:75%;
+  }
+
+  .col10L{
+  width:83.33%;
+  }
+
+  .col11L{
+  width:91.66%;
+  }
+
+  .col12L{
+  width:100%;
+  }
+
+
+  .row:after{
+    clear:both;
+    display:block;
+    content:'';
+  }
+
+
+
+
+}
+
+/* _________________________Selectors for desktop_____________________________ */
+
+@media only screen and (min-width : 1980px) {
+
+  /* ________________Collumns for desktop__________________ */
+
+  .col1XL{
+  width: 8.33%;
+  }
+
+  .col2XL{
+  width:16.66%;
+  }
+
+  .col3XL{
+  width:25%;
+  }
+
+  .col4XL{
+  width:33.33%;
+  }
+
+  .col5XL{
+  width:41.66%;
+  }
+
+  .col6XL{
+  width:50%;
+  }
+
+  .col7XL{
+  width:58.33%;
+  }
+
+  .col8XL{
+  width:66.66%;
+  }
+
+  .col9XL{
+  width:75%;
+  }
+
+  .col10XL{
+  width:83.33%;
+  }
+
+  .col11XL{
+  width:91.66%;
+  }
+
+  .col12XL{
+  width:100%;
+  }
+
+
+  .row:after{
+    clear:both;
+    display:block;
+    content:'';
+  }
+
+
+
+
+}
