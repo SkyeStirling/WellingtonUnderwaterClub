@@ -1,8 +1,80 @@
+*{
+
+}
 
 
-/* ________________Collumns for mobile__________________ */
+.pageContainer{
+max-width: 1000px;
+margin: 0 auto;
+padding:0;
+}
+
+/* _________________________Selectors for mobile_____________________________ */
+
+body {
+
+   background-image: url(./home/hero_image_mobile.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Roboto', sans-serif;
+}
+
+.navhome {
+  display:none;
+}
+
+.hometitle {
+font-size: 2rem;
+line-height: 1.7rem;
+color: white;
+margin-left: 4.3%;
+
+}
+
+/* .home_logo{
+  margin-left: 40%;
+  margin-top: 10%;
+} */
+
+.logopic {
+  width:66.66%;
+  margin: 0 auto;
+}
+
+.introText {
+  margin: 5% auto;
+  /* padding-left: 16.66%; */
+}
+
+.introText p{
+    color:white;
+    font-size: 1.8rem;
+   text-align: center;
+}
+
+.socialLinks{
+   display: inline-block;
+   margin: 15% 27%;
+}
+
+.icon{
+ /* margin-left: 20%;
+ padding: 25px; */
+ float: left;
+
+}
+
+.pic{
+  width: 60px;
+}
+
+/* .col{
+  float:left;
+} */
 
 
+
+/* ________________Collumns for laptope__________________ */
 .col1{
 width: 8.33%;
 }
@@ -58,27 +130,92 @@ width:100%;
   content:'';
 }
 
-/* _________________________Selectors for mobile_____________________________ */
+
+
+
 
 body {
+  background-color: #01090b;
+}
+                          /* Tablet media queary  */
 
-   background-image: url(./home/hero_image_mobile.jpg);
+@media only screen and (min-width : 600px) {
+
+/* ______________Collumns for tablet______________________________ */
+
+.col1M{
+width: 8.33%;
+}
+
+.col2M{
+width:16.66%;
+}
+
+.col3M{
+width:25%;
+}
+
+.col4M{
+width:33.33%;
+}
+
+.col5M{
+width:41.66%;
+}
+
+.col6M{
+width:50%;
+}
+
+.col7M{
+width:58.33%;
+}
+
+.col8M{
+width:66.66%;
+}
+
+.col9M{
+width:75%;
+}
+
+.col10M{
+width:83.33%;
+}
+
+.col11M{
+width:91.66%;
+}
+
+.col12M{
+width:100%;
+}
+
+
+/* ___________________________Tablet styling_________________________________ */
+
+body {
+   background-image: url(./home/hero_image_tablet.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    font-family: 'Roboto', sans-serif;
 }
 
+.navhome{
+  display:none;
+}
+
 .hometitle{
-font-size: 3rem;
-line-height: 1.7rem;
+font-size: 1.7rem;
+line-height: 1rem;
 color: white;
-margin-left: 4.3%;
+margin-left: 2%;
 
 }
 
-.home_logo{
-  margin-left: 18%;
-  margin-top: 10%;
+.logopic{
+  width:50%;
+  margin-left:25%;
 }
 
 .introText{
@@ -89,7 +226,7 @@ margin-left: 4.3%;
 .introText p{
     color:white;
     font-size: 1.8rem;
-   text-align: center;
+    text-align: center;
 }
 
 .socialLinks{
@@ -105,88 +242,14 @@ margin-left: 4.3%;
 }
 
 .pic{
-  width: 100px;
+  width: 80px;
 }
-
-/* .col{
-  float:left;
-} */
-
-/* _________________________Selectors for tablet_____________________________ */
-
-@media only screen and (min-width : 500px) {
-
-  /* ________________Collumns for tablet__________________ */
-
-  .col1M{
-  width: 8.33%;
-  }
-
-  .col2M{
-  width:16.66%;
-  }
-
-  .col3M{
-  width:25%;
-  }
-
-  .col4M{
-  width:33.33%;
-  }
-
-  .col5M{
-  width:41.66%;
-  }
-
-  .col6M{
-  width:50%;
-  }
-
-  .col7M{
-  width:58.33%;
-  }
-
-  .col8M{
-  width:66.66%;
-  }
-
-  .col9M{
-  width:75%;
-  }
-
-  .col10M{
-  width:83.33%;
-  }
-
-  .col11M{
-  width:91.66%;
-  }
-
-  .col12M{
-  width:100%;
-  }
-
-
-  .row:after{
-    clear:both;
-    display:block;
-    content:'';
-  }
-
-
-body {
-  color: red;
-}
-
-
 
 }
 
-/* _________________________Selectors for laptop_____________________________ */
+/* _________________Laptop columns__________________________________ */
 
-@media only screen and (min-width : 960px) {
-
-  /* ________________Collumns for laptop__________________ */
+@media only screen and (min-width : 800px) {
 
   .col1L{
   width: 8.33%;
@@ -236,79 +299,76 @@ body {
   width:100%;
   }
 
+/* _________________________Computer layout_____________________________________ */
 
-  .row:after{
-    clear:both;
-    display:block;
-    content:'';
-  }
+body {
+   background-image: url(./home/hero_image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Roboto', sans-serif;
+}
 
+.navhome {
+  display:block;
+  text-align:center;
+  height:30px;
+  margin-left:16%;
+}
 
+a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  display:inline-block;
+  margin: 3%;
+}
 
+a:hover{
+  text-decoration: underline;
+}
+
+.hometitle {
+display: none;
+}
+
+.home_logo {
+  /* margin-left: 25%; */
+  margin-top: 10%;
+}
+
+.logopic {
+  width:30%;
+  margin-left: 33%;
+}
+
+.introText {
+  margin: 5% auto;
+  /* padding-left: 16.66%; */
+}
+
+.introText p {
+    color:white;
+    font-size: 1.2rem;
+   text-align: center;
+}
+
+.socialLinks{
+   display: inline-block;
+   margin: 5% 27%;
+}
+
+.icon{
+ /* margin-left: 20%;
+ padding: 25px; */
+ float: left;
 
 }
 
-/* _________________________Selectors for desktop_____________________________ */
-
-@media only screen and (min-width : 1980px) {
-
-  /* ________________Collumns for desktop__________________ */
-
-  .col1XL{
-  width: 8.33%;
-  }
-
-  .col2XL{
-  width:16.66%;
-  }
-
-  .col3XL{
-  width:25%;
-  }
-
-  .col4XL{
-  width:33.33%;
-  }
-
-  .col5XL{
-  width:41.66%;
-  }
-
-  .col6XL{
-  width:50%;
-  }
-
-  .col7XL{
-  width:58.33%;
-  }
-
-  .col8XL{
-  width:66.66%;
-  }
-
-  .col9XL{
-  width:75%;
-  }
-
-  .col10XL{
-  width:83.33%;
-  }
-
-  .col11XL{
-  width:91.66%;
-  }
-
-  .col12XL{
-  width:100%;
-  }
-
-
-  .row:after{
-    clear:both;
-    display:block;
-    content:'';
-  }
-
+.pic{
+  width: 45px;
+}
 
 
 
