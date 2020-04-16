@@ -16,6 +16,10 @@ body {
    font-family: 'Roboto', sans-serif;
 }
 
+.navhome{
+  display:none;
+}
+
 .hometitle{
 font-size: 3rem;
 line-height: 1.7rem;
@@ -126,7 +130,7 @@ width:100%;
 
 
 body {
-  background-color: purple;
+  background-color: #01090b;
 }
                           /* Tablet media queary  */
 
@@ -186,11 +190,14 @@ width:100%;
 /* ___________________________Tablet styling_________________________________ */
 
 body {
-
    background-image: url(./home/hero_image_tablet.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    font-family: 'Roboto', sans-serif;
+}
+
+.navhome{
+  display:none;
 }
 
 .hometitle{
@@ -201,13 +208,9 @@ margin-left: 2%;
 
 }
 
-.home_logo{
-  margin-left: 18%;
-  margin-top: 10%;
-}
-
 .logopic{
   width:50%;
+
 }
 
 .introText{
@@ -218,7 +221,7 @@ margin-left: 2%;
 .introText p{
     color:white;
     font-size: 1.8rem;
-   text-align: center;
+    text-align: center;
 }
 
 .socialLinks{
@@ -243,119 +246,125 @@ margin-left: 2%;
 
 @media only screen and (min-width : 800px) {
 
-  .col1m{
+  .col1L{
   width: 8.33%;
   }
 
-  .col2m{
+  .col2L{
   width:16.66%;
   }
 
-  .col3m{
+  .col3L{
   width:25%;
   }
 
-  .col4m{
+  .col4L{
   width:33.33%;
   }
 
-  .col5m{
+  .col5L{
   width:41.66%;
   }
 
-  .col6m{
+  .col6L{
   width:50%;
   }
 
-  .col7m{
+  .col7L{
   width:58.33%;
   }
 
-  .col8m{
+  .col8L{
   width:66.66%;
   }
 
-  .col9m{
+  .col9L{
   width:75%;
   }
 
-  .col10m{
+  .col10L{
   width:83.33%;
   }
 
-  .col11m{
+  .col11L{
   width:91.66%;
   }
 
-  .col12m{
+  .col12L{
   width:100%;
   }
 
-/* ______________________________________________________________ */
+/* _________________________Computer layout_____________________________________ */
 
 body {
-  background-color: #01090b;
+   background-image: url(./home/hero_image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Roboto', sans-serif;
 }
 
+.navhome {
+  display:block;
+  text-align:center;
+  height:30px;
+  margin-left:16%;
+}
+
+a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  display:inline-block;
+  margin: 3%;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.hometitle {
+display: none;
+}
+
+.home_logo {
+  /* margin-left: 25%; */
+  margin-top: 10%;
+}
+
+.logopic {
+  width:30%;
+  margin-left: 33%;
+}
+
+.introText {
+  margin: 5% auto;
+  /* padding-left: 16.66%; */
+}
+
+.introText p {
+    color:white;
+    font-size: 1.2rem;
+   text-align: center;
+}
+
+.socialLinks{
+   display: inline-block;
+   margin: 5% 27%;
+}
+
+.icon{
+ /* margin-left: 20%;
+ padding: 25px; */
+ float: left;
+
+}
+
+.pic{
+  width: 45px;
 }
 
 
-/* __________________Mediummedia___________________________________ */
-
-@media only screen and (min-width : 1080px) {
-
-  .col1m{
-  width: 8.33%;
-  }
-
-  .col2m{
-  width:16.66%;
-  }
-
-  .col3m{
-  width:25%;
-  }
-
-  .col4m{
-  width:33.33%;
-  }
-
-  .col5m{
-  width:41.66%;
-  }
-
-  .col6m{
-  width:50%;
-  }
-
-  .col7m{
-  width:58.33%;
-  }
-
-  .col8m{
-  width:66.66%;
-  }
-
-  .col9m{
-  width:75%;
-  }
-
-  .col10m{
-  width:83.33%;
-  }
-
-  .col11m{
-  width:91.66%;
-  }
-
-  .col12m{
-  width:100%;
-  }
-
-/* ______________________________________________________________ */
-
-body {
-  background-color: red;
-}
 
 }
