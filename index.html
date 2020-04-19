@@ -1,69 +1,110 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-
     <meta charset="utf-8">
-
     <title> Wellington Underwater Club </title>
+    <link rel="stylesheet" href="./home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
+
+
+
+
 
 
   <body>
 
-    <!-- ________________Contains everything within the grid________________ -->
-
-    <div class="pageContainerhome">
-
-  <!-- ________________Contains the nav bar________________ -->
-        <div class="navhome">
-            <div class="col col2"> <a href="./dive.html"> Our Diving </a> </div>
-            <div class="col col2"> <a href="./projects.html"> Projects </a> </div>
-            <div class="col col2"> <a href="./events.html"> Events </a> </div>
-            <div class="col col2"> <a href="./about.html"> About </a> </div>
-            <div class="col col2"> <a href="./join.html"> Join </a> </div>
-        </div>
-
-  <!-- ________________Contains the large underwater club logo ________________ -->
-       <div class="home_logo">
-         <div class="col col4">
-           <img src="./home/new_logo.svg" alt="Wellington Underwater Club Logo">
-         </div>
-       </div>
-
-  <!-- ________________Contains the introductory text paragraph________________ -->
-        <div class="col col6 introText">
-          <p> Wellington Underwater Club draws on a long active history.
-             Founded in 1951, our members have a broad range of skills
-             and experience. We are fortunate to have some of the most
-             easily accessible shore diving in NZ but we also organise
-             trips to dive destinations all around New Zealand.
-
-             Whether you call Wellington home or are just visiting, get in
-             touch and we’ll show you some fantastic diving at our doorstep
-            or you can join us on one of our trips. </p>
-        </div>
-
-  <!-- ________________Contains the three social links________________ -->
-        <div class="socialLinks">
-
-           <div class="col 4">
-              <div class="col col3 icon">
-                <img src="./home/facebook.png" alt="Facebook link">
-              </div>
-
-              <div class="col col3 icon">
-                <img src="./home/vimeo.png" alt="Vimeo link">
-              </div>
-
-              <div class="col col3 icon">
-                <img src="./home/email.png" alt="Email link">
-              </div>
-           </div>
-
-        </div>
-
+    <div class="dropdown-menu">
+      <ul>
+        <li><a href="./dive.html"> Our Diving </a></li>
+        <li><a href="./projects.html"> Projects </a></li>
+        <li><a href="./events.html"> Events </a></li>
+        <li><a href="./about.html"> About </a></li>
+      </ul>
     </div>
 
+  <!-- _________________ Navigation _________________ -->
+
+   <!-- The top navigation of the page, with a hamburger menu for
+        mobile and tablet, and a nav bar for desktop. -->
+
+
+  <div class="row-1">
+    <div class="col-7 col4-M col4-L">
+      <h1> Wellington Underwater Club </h1>
+    </div>
+    <div class="col-2 col6-M col2-L">
+      <!-- Container Space -->
+    </div>
+    <div class="col-2 col1-M align-centre menu-icon">
+        <img src="./menu.svg" alt="Hamburger Menu" width="75%">
+    </div>
+    <div class="col-1">
+      <!-- Container Space -->
+    </div>
+  </div>
+
+  <!-- Desktop Nav Bar -->
+
+  <div class="row-1-desktop">
+    <div class="col-2"><!-- Container Space --></div>
+    <div class="col-8">
+      <a href="./dive.html"> Our Diving </a>
+      <a href="./projects.html"> Projects </a>
+      <a href="./events.html"> Events </a>
+      <a href="./about.html"> About </a>
+      <!-- <a href="./join.html"> Join </a> -->
+    </div>
+    <div class="col-2"><!-- Container Space --></div>
+  </div>
+
+
+  <!-- _________________ Middle logo_________________ -->
+
+  <div class="row-2">
+      <div class="col-2 col3-M col4-L"> </div>
+      <div class="col-8 col6-M col4-L">
+        <img src="./new_logo.png" alt="Club Logo" width="100%">
+      </div>
+      <div class="col-2 col3-M col4-L"> </div>
+  </div>
+
+  <!-- _________________ Intro text_________________ -->
+  <div class="row-3">
+
+      <div class="col-1 col2-M"> </div>
+      <div class="col-10 col8-M align">
+          <p> Wellington Underwater Club draws on a long active history.
+          Founded in 1951, our members have a broad range of skills
+          and experience. We are fortunate to have some of the most
+          easily accessible shore diving in NZ but we also organise
+          trips to dive destinations all around New Zealand. </p>
+          <br>
+          <p> Whether you call Wellington home or are just visiting, get in
+          touch and we’ll show you some fantastic diving at our doorstep
+          or you can join us on one of our trips. </p>
+      </div>
+      <div class="col-1 col2-M"> </div>
+  </div>
+
+  <!-- _________________ social links_________________ -->
+  <div class="row-4">
+      <div class="col-2 col4-M col5-L"> </div>
+
+      <div class="col-8 col4-M icons col2-L align-centre">
+        <img src="./facebook.png" alt="Club Logo" width="15%">
+        <img src="./vimeo.png" alt="Club Logo" width="15%">
+        <img src="./mail.png" alt="Club Logo" width="15%">
+      </div>
+
+      <div class="col-2 col4-M col5-L"> </div>
+  </div>
+
+  <script type="text/javascript" src="./dropdown.js"></script>
+
   </body>
+
+
+
 
 </html>

@@ -1,0 +1,226 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown-menu {
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  height: 100vh;
+}
+
+.dropdown-menu ul {
+  margin: 50px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-menu li {
+  background-color: white;
+  display: block;
+    width: 200px;
+  margin: 30px auto;
+  font-size: 1.8rem;
+}
+
+.dropdown-menu a {
+  padding: 10px 20px;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/* ________________Collumns for mobile__________________ */
+.col-1{ width: 8.33%; }
+.col-2{ width:16.66%; }
+.col-3{ width:25%; }
+.col-4{ width:33.33%; }
+.col-5{ width:41.66%; }
+.col-6{ width:50%; }
+.col-7{ width:58.33%; }
+.col-8{ width:66.66%; }
+.col-9{ width:75%; }
+.col-10{ width:83.33%; }
+.col-11{ width:91.66%; }
+.col-12{ width:100%; }
+
+[class*="row-"] {
+  clear:both;
+}
+
+body {
+  height: 100vh;
+}
+
+[class*="col-"] {
+  float: left;
+  /* border: 1px solid red; */
+  padding: 20px 0;
+}
+
+.row-1 {
+  padding-top: 40px;
+  height:20vh;
+}
+
+.row-2 {
+  height:40vh;
+}
+
+.row-3 {
+  height:30vh;
+}
+
+.row-4 {
+  height:10vh;
+}
+
+.row-1-desktop {
+  display: none;
+}
+
+
+/* Selectors */
+
+.align-centre {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.icons img {
+  box-sizing: content-box;
+  padding: 0 20px;
+}
+
+/* Changed box sizing to content-box instead of
+border box so the padding was applied to the
+outside of the box not the inside, meaning
+the images won't shrink */
+
+
+body {
+  background-image: url("./hero_image_mobile.jpg");
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Roboto', sans-serif;
+  /* background-color: lightblue; */
+}
+
+h1 {
+  color: white;
+  word-spacing: 100vw;
+  font-size: 3.0rem;
+  padding-left: 80px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5) ;
+  font-size: 1.35rem;
+}
+
+
+
+
+
+/* Tablet media queary  */
+
+@media only screen and (min-width : 900px) {
+
+/* ______________Collumns for tablet______________________________ */
+
+  .col1-M{ width: 8.33%; }
+  .col2-M{ width:16.66%; }
+  .col3-M{ width:25%; }
+  .col4-M{ width:33.33%; }
+  .col5-M{ width:41.66%; }
+  .col6-M{ width:50%; }
+  .col7-M{ width:58.33%; }
+  .col8-M{ width:66.66%; }
+  .col9-M{ width:75%; }
+  .col10-M{ width:83.33%; }
+  .col11-M{ width:91.66%; }
+  .col12-M{ width:100%; }
+
+
+  body {
+    background-image: url("./hero_image_tablet.jpg");
+    background-size: cover;
+    background-position: center center;
+    /* background-color: lightblue; */
+  }
+
+}
+
+
+
+/* _________________computer columns__________________________________ */
+
+@media only screen and (min-width : 1020px) {
+
+  .col1-L{ width: 8.33%; }
+  .col2-L{ width:16.66%; }
+  .col3-L{ width:25%; }
+  .col4-L{ width:33.33%; }
+  .col5-L{ width:41.66%; }
+  .col6-L{ width:50%; }
+  .col7-L{ width:58.33%; }
+  .col8-L{ width:66.66%; }
+  .col9-L{ width:75%; }
+  .col10-L{ width:83.33%; }
+  .col11-L{ width:91.66%; }
+  .col12-L{ width:100%; }
+
+/* _______________________Computer Styling___________________________ */
+
+  .row-1 {
+    display: none;
+  }
+
+  .row-1-desktop {
+    display: block;
+    text-align: center;
+  }
+
+  .row-1-desktop a {
+    color: rgb(220,220,220);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.35rem;
+    margin: 25px;
+    transition-property: color,  border-bottom;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    border-bottom: 2px solid rgba(255,255,255,0);
+  }
+
+  .row-1-desktop a:hover {
+     color: rgb(255,255,255);
+     border-bottom: 2px solid rgba(255,255,255,1);
+
+  }
+
+  body {
+    background-image: url("./hero_image.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .icons img {
+    box-sizing: content-box;
+    padding: 0 10px;
+  }
+
+}

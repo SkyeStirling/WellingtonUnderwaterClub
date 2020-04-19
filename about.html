@@ -1,72 +1,249 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-
     <meta charset="utf-8">
-    <title> Wellington Underwater Club </title>
+    <title> Wellington Underwater Club - Diving </title>
+    <link rel="stylesheet" href="./parent.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
-
 
 
 
   <body>
 
-    <!-- ______________Contains everything within the grid______________ -->
-  <div class="pageContainerabout">
-
-  <!-- ________________Contains the nav bar________________ -->
-    <div class="navother">
-
-      <div class="col col2"> <a href="./index.html"> Wellington Underwater Club </a> </div>
-
-        <div class="col col2"> <a href="./dive.html"> Our Diving </a> </div>
-        <div class="col col2 "> <a href="./projects.html"> Projects </a> </div>
-        <div class="col col2 active"> <a href="./events.html"> Events </a> </div>
-        <div class="col col2"> <a href="./about.html"> About </a> </div>
-        <div class="col col2"> <a href="./join.html"> Join </a> </div>
-
+    <div class="dropdown-menu">
+      <ul>
+        <li><a href="./dive.html"> Our Diving </a></li>
+        <li><a href="./projects.html"> Projects </a></li>
+        <li><a href="./events.html"> Events </a></li>
+        <li><a href="./about.html"> About </a></li>
+      </ul>
     </div>
 
-  <!-- ___________Contains the title of the page ___________ -->
-    <div class="page description">
-        <div class="col col 8">
-            <div class="col col 12 pagetitle">
+    <!-- __________________________Mobile nav bar______________________ -->
 
-              <!-- ___________Contains the contact form ___________ -->
-              <h1> Contact Us </h1>
-                 <form class="contact" action="index.html" method="post">
-                     <input type="text" id="name" name="name" placeholder="Your name..">
-                    <input type="text" id="email" name="email" placeholder="Your email..">
-                    <textarea id="message" name="message" placeholder="Write a message..." style="height:170px"> </textarea>
-                    <button id="submit"> Submit </button>
-                </form>
-            </div>
-        </div>
+   <div class="row-1">
 
-<!-- ___________Contains the contact form ___________ -->
-        <div class="aboutSubPageLinks">
 
-           <div class="col col5">
-             <div class"col col12 historyImg">
-               <div class"col col9 linkText">
-                <a href="#"> <h2> History </h2> </a>
-               </div>
-             </div>
-           </div>
+       <div class="col-3 col1-M align-right">
+        <a href="./index.html"> <img src="./new_logo.svg" alt="Club logo" class="logo-pic"></a>
+       </div>
 
-           <div class="col col5">
-             <div class"col col12 peopleImg">
-               <div class"col col9 linkText">
-                <a href="#"> <h2> People </h2> </a>
-               </div>
-             </div>
-           </div>
+      <div class="col-1 col3-M">
+      </div>
 
-        </div>
+      <div class="col-5 col4-M nav-header">
+        <h1> About Us </h1>
+      </div>
+
+     <div class="col-1 col3-M">
+     </div>
+
+    <div class="col-2 col1-M ">
+      <img src="./menu.svg" alt="Hamburger menu" class="menu menu-icon">
     </div>
 
 
+   </div>
+
+     <!-- __________________________desktop nav bar______________________ -->
+
+   <div class="row-1-desktop">
+
+      <a href="./index.html"> <div class="col4-L"> <h2> Wellington Underwater Club </h2> </div></a>
+       <div class="col3-L"> </div>
+       <div class="col5-L menuLinks">
+         <a href="./dive.html"> Our Diving </a>
+         <a href="./projects.html"> Projects </a>
+         <a href="./events.html"> Events </a>
+         <a href="./about.html"> About </a>
+         <!-- <a href="./join.html"> Join </a> -->
+       </div>
 
 
+
+   </div>
+
+   <!-- __________________________page description and card 1______________________ -->
+
+<div class="desktopBody">
+
+  <div class="desktop-row"> <!-- DESKTOP ROW 1 -->
+
+    <div class="row-2-2  card1.1">
+      <div class="col1-L"> </div>
+      <div class="col10-L">
+        <div class="col12-L">
+          <h1> Contact Us </h1>
+        </div>
+        <div class="col12-L">
+          <form class="contact col col8 col6M col4L" action="index.html" method="post">
+            <input type="text" id="name" name="name" placeholder="Your name.." class="col-12">
+            <input type="text" id="email" name="email" placeholder="Your email.." class="col-12">
+            <textarea id="message" name="message" placeholder="Write a message..." style="height:170px" class="col-12"> </textarea>
+            <button id="submit" class="col col12 col 12M col12L"> Submit </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="desktop-row"> <!-- DESKTOP ROW 2 -->
+
+   <div class="row-2-2  card1.1">
+     <div class="col1-L"> </div>
+     <div class="col4-L">
+
+
+       <div class="col12-L history1">
+         <h2> History </h2>
+          <br> <br>
+         <p> The Wellington Underwater Club (WUC), officially established in 1951,
+           is thought to be the oldest dive club in New Zealand. An extract
+           from the 25th Jubilee celebrations held in August 1976 reveals:  </p>
+
+         <p> It all began when a hardy pioneer noticed he wasn't the only diver on the beach.
+            Each, from thinking he was the only one, suddenly realised that there were 20
+            or more people actively diving around the Wellington coast. These divers
+            used largely home-made equipment and seldom had to venture further afield
+            that the road's end or the tram terminal to get full and easy catches of
+            crays, moki, butterfish and paua </p>
+
+         <p>  By the summer of 1950/51 they were meeting for informal group dives
+           often enough that a club seemed logical. Once the idea was mooted and word
+           got around, the level of interest was surprising. Apart from local pioneers,
+           there were people who had dived in the islands during the war or while serving
+           at met. stations, and who wondered what diving was like at home. Deerstalkers
+           and other huntsmen fancied the idea of similar sport without the hassle of
+           tramping miles into the mountains. Surfers and swimmers also fancied a take-
+           home profit from their aquatic activities. So the Club was born - the first,
+           we like to think, in New Zealand. </p>
+
+       </div>
+
+   </div>
+
+     <div class="col2-L"> </div>
+
+    <div class="col-12 col12-M col4-L cardcontainer1">
+     <div class="col12-L people1">
+       <h2> People </h2>
+       <br> <br>
+       <p> A club is about the people. It is about people that share an interest
+         and support the individuals in within this community. Diving in a group
+         with dive buddies, doesn't only make this sport safer it also makes it
+         more enjoyable, and also affordable. In the early days the divers in
+         the club would share their ideas and develop new gear that wasn't
+         available to buy or way too expensive. Nowadays we still share costs
+         for dive trips and can help eachother out when gear fails at the
+         dive site. But most importantly we can share the amazing
+         experiences we have with our friends. </p>
+
+         <p> Find some stories of club members about what sparked their
+           interest in the underwater world and how Wellington Underwater
+           Club provided the right setting for their activities. </p>
+     </div>
+    </div>
+  <div class="col1-L"> </div>
+ </div>
+</div>
+
+
+
+</div>  <!--  ______________Closing div to desktop body____________ -->
+
+
+
+<div class="mobileBody">
+
+  <div class="-row"> <!-- mobile row 1 -->
+
+    <div class="row-2 card1">
+      <div class="col-1 col2-M"> </div>
+      <div class="col-10 col8-M">
+        <div class="col-12">
+          <h1> Contact Us </h1>
+        </div>
+        <div class="col-12">
+          <form class="contact col-12" action="index.html" method="post">
+            <input type="text" id="name" name="name" placeholder="Your name.." class="col-7">
+            <input type="text" id="email" name="email" placeholder="Your email.." class="col-12">
+            <textarea id="message" name="message" placeholder="Write a message..." style="height:170px" class="col-12"> </textarea>
+            <button id="submit" class="col-12"> Submit </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="row"> <!--MOBILE ROW 2 -->
+
+   <div class="row-2  card1.1">
+     <div class="col-1 col1-M"> </div>
+     <div class="col-10 col-M">
+
+
+       <div class="col-12 history">
+         <h2> History </h2>
+          <br> <br>
+         <p> The Wellington Underwater Club (WUC), officially established in 1951,
+           is thought to be the oldest dive club in New Zealand. An extract
+           from the 25th Jubilee celebrations held in August 1976 reveals:  </p>
+
+         <p> It all began when a hardy pioneer noticed he wasn't the only diver on the beach.
+            Each, from thinking he was the only one, suddenly realised that there were 20
+            or more people actively diving around the Wellington coast. These divers
+            used largely home-made equipment and seldom had to venture further afield
+            that the road's end or the tram terminal to get full and easy catches of
+            crays, moki, butterfish and paua </p>
+
+         <p>  By the summer of 1950/51 they were meeting for informal group dives
+           often enough that a club seemed logical. Once the idea was mooted and word
+           got around, the level of interest was surprising. Apart from local pioneers,
+           there were people who had dived in the islands during the war or while serving
+           at met. stations, and who wondered what diving was like at home. Deerstalkers
+           and other huntsmen fancied the idea of similar sport without the hassle of
+           tramping miles into the mountains. Surfers and swimmers also fancied a take-
+           home profit from their aquatic activities. So the Club was born - the first,
+           we like to think, in New Zealand. </p>
+
+       </div>
+
+   </div>
+
+   <div class="row-2  card1.1">
+     <div class="col-1"> </div>
+     <div class="col-10">
+
+
+       <div class="col-12 history">
+         <h2> People </h2>
+          <br> <br>
+          <p> A club is about the people. It is about people that share an interest
+            and support the individuals in within this community. Diving in a group
+            with dive buddies, doesn't only make this sport safer it also makes it
+            more enjoyable, and also affordable. In the early days the divers in
+            the club would share their ideas and develop new gear that wasn't
+            available to buy or way too expensive. Nowadays we still share costs
+            for dive trips and can help eachother out when gear fails at the
+            dive site. But most importantly we can share the amazing
+            experiences we have with our friends. </p>
+
+            <p> Find some stories of club members about what sparked their
+              interest in the underwater world and how Wellington Underwater
+              Club provided the right setting for their activities. </p>
+
+       </div>
+
+   </div>
+
+
+
+</div>  <!--  Closing div to mobile body -->
+<script type="text/javascript" src="./dropdown.js"></script>
   </body>
 </html>
