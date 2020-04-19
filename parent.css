@@ -1,0 +1,400 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown-menu {
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  height: 100vh;
+}
+
+.dropdown-menu ul {
+  margin: 50px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-menu li {
+  background-color: white;
+  display: block;
+    width: 200px;
+  margin: 30px auto;
+  font-size: 1.8rem;
+}
+
+.dropdown-menu a {
+  padding: 10px 20px;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/* ________________Collumns for mobile__________________ */
+.col-1{ width: 8.33%; }
+.col-2{ width:16.66%; }
+.col-3{ width:25%; }
+.col-4{ width:33.33%; }
+.col-5{ width:41.66%; }
+.col-6{ width:50%; }
+.col-7{ width:58.33%; }
+.col-8{ width:66.66%; }
+.col-9{ width:75%; }
+.col-10{ width:83.33%; }
+.col-11{ width:91.66%; }
+.col-12{ width:100%; }
+
+[class*="row-"] {
+  clear:both;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+[class*="col"] {
+  float: left;
+  /* border: 1px solid red; */
+  padding: 10px 0;
+}
+
+/* Navigation for mobile */
+.row-1-desktop {
+  display:none;
+}
+
+.desktopBody {
+  display: none;
+}
+
+.mobileBody !important {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
+
+.row-1 {
+  background-color: #00323d;
+  height:10%;
+  color: white;
+}
+
+.logo-pic {
+  width: 100px;
+}
+
+.nav-header {
+  padding-top: 35px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.menu {
+  width: 50px;
+  padding-top: 15px;
+  padding: 35px 0;
+}
+
+.card1 {
+  padding:  50px 0px 50px 0px;
+}
+
+.card1 h2 {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  font-weight:normal;
+  text-align: center;
+  padding-top: 250px;
+}
+
+
+/* Dive page images */
+.clubDives{
+  background-image: url("./dive/clubdivesS.jpg");
+  height: 300px;
+  /* width:100%; */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.diveTrips{
+  background-image: url("./dive/tripsS.jpg");
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.training{
+  background-image: url("./dive/trainingS.jpg");
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Dive page images */
+.conservation{
+  background-image: url("./projects/marine_conservation3S.jpg");
+  height: 300px;
+  /* width:100%; */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.archaeology{
+  background-image: url("./projects/marine_archaeologyS.jpg");
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.seaweed{
+  background-image: url("./projects/seaweed1S.jpg");
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.eventImage {
+  width:100%;
+  height:400px;
+}
+
+.calender {
+  height:360px;
+}
+
+.card-text {
+  margin-top: 200px;
+}
+
+
+/* Tablet media queary  */
+
+@media only screen and (min-width : 900px) {
+
+/* ______________Collumns for tablet______________________________ */
+
+  .col1-M{ width: 8.33%; }
+  .col2-M{ width:16.66%; }
+  .col3-M{ width:25%; }
+  .col4-M{ width:33.33%; }
+  .col5-M{ width:41.66%; }
+  .col6-M{ width:50%; }
+  .col7-M{ width:58.33%; }
+  .col8-M{ width:66.66%; }
+  .col9-M{ width:75%; }
+  .col10-M{ width:83.33%; }
+  .col11-M{ width:91.66%; }
+  .col12-M{ width:100%; }
+
+  /* ______dive selectors_______ */
+
+  .clubDives{
+    background-image: url("./dive/clubdivesM.jpg");
+    height: 300px;
+    /* width:100%; */
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .diveTrips{
+    background-image: url("./dive/tripsM.jpg");
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .training{
+    background-image: url("./dive/trainingM.jpg");
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  /* ______project selectors_______ */
+
+  .conservation {
+    background-image: url("./projects/marine_conservation3M.jpg");
+    height: 300px;
+    /* width:100%; */
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .archaeology {
+    background-image: url("./projects/marine_archaeologyM.jpg");
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .seaweed {
+    background-image: url("./projects/seaweed1M.jpg");
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .calender {
+    height:500px;
+  }
+
+  .history {
+    clear: both;
+  }
+
+  .people {
+    padding-left: 8.33%;
+  }
+
+}
+
+
+
+/* _________________computer columns__________________________________ */
+
+@media only screen and (min-width : 1020px) {
+
+  .col1-L{ width: 8.33%; }
+  .col2-L{ width:16.66%; }
+  .col3-L{ width:25%; }
+  .col4-L{ width:33.33%; }
+  .col5-L{ width:41.66%; }
+  .col6-L{ width:50%; }
+  .col7-L{ width:58.33%; }
+  .col8-L{ width:66.66%; }
+  .col9-L{ width:75%; }
+  .col10-L{ width:83.33%; }
+  .col11-L{ width:91.66%; }
+  .col12-L{ width:100%; }
+
+/* _______________________Computer Styling___________________________ */
+
+.row-1{
+  display:none;
+}
+
+.desktopBody {
+  display: block;
+  max-width:1020px;
+  margin: 0 auto;
+}
+
+.mobile-body {
+  display: none;
+}
+
+.mobileBody {
+  display: none;
+}
+
+
+.row-1-desktop {
+  display:block;
+  background-color: #00323d;
+  height:5%;
+  color: white;
+}
+
+.menuLinks a {
+  color: white;
+  text-decoration: none;
+  padding: 14px;
+}
+
+.row-1-desktop h2 {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.desktop-row  {
+  padding-top: 100px;
+}
+
+.row-2-2 {
+  height: 300px;
+}
+
+.cardcontainer{
+  display: none;
+}
+
+.cardcontainer1{
+  display: block;
+}
+
+.card1-1 h2 {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  font-weight:normal;
+  text-align: center;
+  padding-top: 250px;
+}
+
+/* ______Dive page Images_______ */
+
+.clubDives1{
+  background-image: url("./dive/clubdives.jpg");
+  height: 300px;
+  /* width:100%; */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.diveTrips1{
+  background-image: url("./dive/trips.jpg");
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.training1{
+  background-image: url("./dive/training.jpg");
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* ______Projects page Images_______ */
+
+.conservation1{
+  background-image: url("./projects/marine_conservation3L.jpg");
+  height: 300px;
+  /* width:100%; */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.archaeology1{
+  background-image: url("./projects/marine_archaeologyL.jpg");
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.seaweed1{
+  background-image: url("./projects/seaweed1L.jpg");
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.eventImage {
+  width:100%;
+  height:200px;
+}
+
+
+}

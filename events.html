@@ -1,97 +1,222 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-
     <meta charset="utf-8">
-    <title> Wellington Underwater Club </title>
+    <title> Wellington Underwater Club - Diving </title>
+    <link rel="stylesheet" href="./parent.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
 
 
 
   <body>
 
-    <!-- ______________Contains everything within the grid______________ -->
-  <div class="pageContainerdive">
-
-  <!-- ________________Contains the nav bar________________ -->
-    <div class="navother">
-
-      <div class="col col2"> <a href="./index.html"> Wellington Underwater Club </a> </div>
-
-        <div class="col col2"> <a href="./dive.html"> Our Diving </a> </div>
-        <div class="col col2 "> <a href="./projects.html"> Projects </a> </div>
-        <div class="col col2 active"> <a href="./events.html"> Events </a> </div>
-        <div class="col col2"> <a href="./about.html"> About </a> </div>
-        <div class="col col2"> <a href="./join.html"> Join </a> </div>
-
+    <div class="dropdown-menu">
+      <ul>
+        <li><a href="./dive.html"> Our Diving </a></li>
+        <li><a href="./projects.html"> Projects </a></li>
+        <li><a href="./events.html"> Events </a></li>
+        <li><a href="./about.html"> About </a></li>
+      </ul>
     </div>
 
-  <!-- ___________Contains the title of the page ___________ -->
-    <div class="page description">
-        <div class="col col 5">
-            <div class="col col 12 pagetitle">
-              <h1> Events </h1>
-              <P> Click 'agenda' to see all upcoming events </p>
-            </div>
-        </div>
+    <!-- __________________________Mobile nav bar______________________ -->
 
+   <div class="row-1">
+
+
+       <div class="col-3 col1-M align-right">
+        <a href="./index.html"> <img src="./new_logo.svg" alt="Club logo" class="logo-pic"></a>
+       </div>
+
+      <div class="col-1 col3-M">
+      </div>
+
+      <div class="col-5 col4-M nav-header">
+        <h1> Events </h1>
+      </div>
+
+     <div class="col-1 col3-M">
+     </div>
+
+    <div class="col-2 col1-M ">
+      <img src="./menu.svg" alt="Hamburger menu" class="menu menu-icon">
     </div>
 
-<!-- ___________Contains the calender ___________ -->
-    <div class="col col 12 calender">
-        <iframe src="https://calendar.google.com/calendar/embed?src=wellington.underwater%40gmail.com&ctz=Pacific%2FAuckland" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+   </div>
+
+     <!-- __________________________desktop nav bar______________________ -->
+
+   <div class="row-1-desktop">
+
+      <a href="./index.html"> <div class="col4-L"> <h2> Wellington Underwater Club </h2> </div></a>
+       <div class="col3-L"> </div>
+       <div class="col5-L menuLinks">
+         <a href="./dive.html"> Our Diving </a>
+         <a href="./projects.html"> Projects </a>
+         <a href="./events.html"> Events </a>
+         <a href="./about.html"> About </a>
+         <!-- <a href="./join.html"> Join </a> -->
+       </div>
+
+
+
+   </div>
+
+   <!-- __________________________page description and card 1______________________ -->
+
+<div class="desktopBody">
+
+  <div class="row2-desktop">
+    <div class="col1-L"> </div>
+    <div class="col10-L">
+    <h1> Upcoming Events </h1>
+    <p> Click 'agenda' to see all upcoming events </p>
     </div>
+    <div class="col1-L"> </div>
+  </div>
 
-  <!-- ________________Contains the descriptions for social events________________ -->
+  <div class="desktop-row"> <!-- DESKTOP ROW 2 -->
+    <div class="row-2-2  card1.1">
 
-  <div class="eventTypeDescription">
+      <div class="col1-L"> </div>
+      <div class="col10-L">
+        <iframe src="https://calendar.google.com/calendar/embed?src=wellington.underwater%40gmail.com&ctz=Pacific%2FAuckland" style="border: 0" width="100%" height="600px;" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div class="col1-L"> </div>
+   </div>
+  </div>
 
-     <div class="col col5">
+  <div class="desktop-row"> <!-- DESKTOP ROW 2 -->
 
-       <div class"col col12 socialImg">
-         <div class"col col9 linkText">
+     <div class="row-2-2  card1.1">
+
+       <div class="col1-L"> </div>
+       <div class="col4-L">
+
+
+         <div class="col12-L social1">
+           <div class="col12-L">
+               <img src="./events/social.jpg" alt=" Social events" class="eventImage">
+           </div>
            <h2> Social events </h2>
-         </div>
-       </div>
+            <br> <br>
+            <p> We would all be solo-divers if it wasn't for the social
+              aspect of a club. Well, one could argue, there is the
+              safety aspect to buddy diving that you need a club for...
+              but it really is about hanging out with like minded people. </P>
+              <p> We not only catch up before or / and after diving, or
+              for formalities like committee meetings and AGMs,
+              but we enjoy regularly catching up for a drink and
+              the latest gossip. </P>
 
-       <div class="col col 12 eventdescript">
-          <p> We would all be solo-divers if it wasn't for the social aspect
-            of a club. Well, one could argue, there is the safety aspect to
-            buddy diving that you need a club for...
-            but it really is about hanging out with like minded people. </p>
-            <p> We not only catch up before and/or after diving, or for
-            formalities like committee meetings and AGMs, but we also enjoy
-            regularly catching up for a drink and the latest gossip. </p>
-       </div>
+         </div>
 
      </div>
 
-<!-- ________________Contains the descriptions for educational events________________ -->
+       <div class="col2-L"> </div>
 
-     <div class="col col5">
-
-       <div class"col col12 educationImg">
-         <div class"col col9 linkText">
-           <h2> Educational Events </h2>
+      <div class="col-12 col12-M col4-L cardcontainer1">
+       <div class="col12-L education1">
+         <div class="col12-L eventImage">
+           <img src="./events/education.jpg" alt=" Educational events" class="eventImage" height="100%">
          </div>
+         <h2> Educational Events </h2>
+         <br> <br>
+         <p> Wellington Underwater Club regularly participates in educational
+           events like here for a talk about the Kapiti Seafloor Survey,
+           organised by Victoria University. Many other organisations
+           offer educational events that are of interest for our members
+           like NIWA, MAANZ, MEC, FoTMR and Techfest. </p>
        </div>
+      </div>
+    <div class="col1-L"> </div>
 
-       <div class="col col 12 eventdescript">
-          <p> Wellington Underwater Club regularly participates in
-            educational events like here for a talk about the Kapiti
-            Seafloor Survey, organised by Victoria University. Many other
-            organisations offer educational events that are of interest
-            for our members like NIWA, MAANZ, MEC, FoTMR and Techfest. </p>
+   </div>
+  </div>
+
+
+
+</div>  <!--  Closing div to desktop body -->
+
+<!-- __________________________________Mobile________________________________ -->
+
+
+<div class="mobile-body">
+
+  <div class="row2">
+    <div class="col-1"> </div>
+    <div class="col-10">
+    <h1> Upcoming Events </h1>
+    <p> Click 'agenda' to see all upcoming events </p>
+    </div>
+    <div class="col-1"> </div>
+  </div>
+
+  <div class="row"> <!-- DESKTOP ROW 2 -->
+    <div class="row-2-2  card1.1">
+
+      <div class="col-1"> </div>
+      <div class="col-10">
+        <iframe src="https://calendar.google.com/calendar/embed?src=wellington.underwater%40gmail.com&ctz=Pacific%2FAuckland" style="border: 0" width="100%"  frameborder="0" scrolling="no" class="calender"></iframe>
+      </div>
+      <div class="col-1"> </div>
+   </div>
+  </div>
+
+  <div class="1row"> <!-- DESKTOP ROW 1 -->
+
+   <div class="row-2-2 card1.1">
+     <div class="col-1"> </div>
+     <div class="col-10">
+       <div class="col-12">
+           <img src="./events/social.jpg" alt=" Social events" class="eventImage">
        </div>
-
+       <div class="col-12">
+         <h1> Social </h1>
+       </div>
+       <div class="col-12">
+       <p> We would all be solo-divers if it wasn't for the social
+         aspect of a club. Well, one could argue, there is the
+         safety aspect to buddy diving that you need a club for...
+         but it really is about hanging out with like minded people. </P>
+         <p> We not only catch up before or / and after diving, or
+         for formalities like committee meetings and AGMs,
+         but we enjoy regularly catching up for a drink and
+         the latest gossip. </P>
+       </div>
      </div>
+    </div>
 
+ <div class="row-2-2 card1.1">
+    <div class="col-1"> </div>
+    <div class="col-10">
+    <div class="col-12 eventImage">
+      <img src="./events/education.jpg" alt=" Educational events" class="eventImage">
+    </div>
+    <div class="col-12">
+      <h1> Educational </h1>
+    </div>
+   <div class="col-12">
+     <p> Wellington Underwater Club regularly participates in educational
+       events like here for a talk about the Kapiti Seafloor Survey,
+       organised by Victoria University. Many other organisations
+       offer educational events that are of interest for our members
+       like NIWA, MAANZ, MEC, FoTMR and Techfest. </p>
+   </div>
   </div>
+</div>
+</div>
+
+  </div>  <!--  Closing div to desktop body -->
 
 
-  </div>
 
+<!-- Closing tag to mobile body -->
+</div>
+
+
+  <script type="text/javascript" src="./dropdown.js"></script>
   </body>
-
-
 </html>
